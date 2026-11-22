@@ -1,9 +1,9 @@
-# 🛒 [Supermarket Name] - Online Store
+# 🛒 BNG Supermarket - Online Store
 
 A responsive, user-friendly e-commerce web application for browsing groceries, household essentials, and everyday items with an interactive shopping cart.
 
 ## 🌐 Live Demo
-[View Live Website](https://[your-username].github.io/[repository-name]/)
+[View Live Website](https://Bonnie2204.github.io/[repository-name]/)
 
 ## ✨ Features
 - **Product Catalog:** Browse groceries by categories (e.g., Fresh Produce, Dairy, Bakery, Beverages).
@@ -27,8 +27,6 @@ A responsive, user-friendly e-commerce web application for browsing groceries, h
    ```
 3. Open `index.html` in your preferred web browser.
 
-## 📸 Screenshots
-*(Optional: Add a screenshot of your homepage or shopping cart here once deployed)*
 
 ## 👨‍💻 Author
-- **Bonface Githukia** – [@Bonnie2204](https://github.comBonnie2204)
+- **Bonface Githukia** – @Bonnie2204(https://github.comBonnie2204)
