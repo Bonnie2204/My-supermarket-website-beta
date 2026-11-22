@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>BNG ENTERPRISE website.</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BNG ENTERPRISES | Smart Supermarket Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛒 BNG Supermarket</h1>
+    <button id="themeBtn" aria-label="Dark/Light mode">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <p id="low">✨ 🎈Welcome to <i><b>BNG ENTERPRISE</b></i> — where you purchase products at your convenient price. Fresh groceries, best value! 🇰🇪</p>
+    <h2>📦 Fresh Picks</h2>
+
+    <div class="products" id="productContainer">
+      <div class="card" data-name="Milk" data-price="60">
+        <h3>🥛 Milk</h3>
+        <p>Price: Ksh 60</p>
+        <button class="addBtn" data-price="60" data-name="Milk">Add to Cart</button>
+      </div>
+
+      <div class="card" data-name="Bread" data-price="50">
+        <h3>🍞 Bread</h3>
+        <p>Price: Ksh 50</p>
+        <button class="addBtn" data-price="50" data-name="Bread">Add to Cart</button>
+      </div>
+
+      <div class="card" data-name="Eggs (6pcs)" data-price="120">
+        <h3>🥚 Eggs (6pcs)</h3>
+        <p>Price: Ksh 120</p>
+        <button class="addBtn" data-price="120" data-name="Eggs (6pcs)">Add to Cart</button>
+      </div>
+
+      <div class="card" data-name="Cooking Oil 1L" data-price="320">
+        <h3>🫒 Cooking Oil 1L</h3>
+        <p>Price: Ksh 320</p>
+        <button class="addBtn" data-price="320" data-name="Cooking Oil 1L">Add to Cart</button>
+      </div>
+
+      <div class="card" data-name="Rice (1kg)" data-price="210">
+        <h3>🍚 Rice (1kg)</h3>
+        <p>Price: Ksh 210</p>
+        <button class="addBtn" data-price="210" data-name="Rice (1kg)">Add to Cart</button>
+      </div>
+
+      <div class="card" data-name="Tomatoes (1kg)" data-price="95">
+        <h3>🍅 Tomatoes (1kg)</h3>
+        <p>Price: Ksh 95</p>
+        <button class="addBtn" data-price="95" data-name="Tomatoes (1kg)">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- SHOPPING CART PANEL -->
+    <div class="cart-section">
+      <div class="cart-header">
+        <h3>🛍️ Your Cart <span id="cartCount">(0)</span></h3>
+        <button id="clearCartBtn" style="background:#a03e2c; padding:0.4rem 1.2rem;">🗑️ Clear Cart</button>
+      </div>
+      <div id="cartItemsList" class="cart-items-list">
+        <div class="empty-cart-msg">🛒 Cart is empty. Add some delicious items!</div>
+      </div>
+      <div class="cart-total">
+        💵 Total: <span id="cartTotal">0</span> Ksh
+      </div>
+      <button id="checkoutBtn" class="checkout-btn">✅ Checkout & Pay</button>
+    </div>
+  </main>
+  <footer>
+    <p>🌟 <i>BNG ENTERPRISES — </i> <strong>Quality & Trust since 2019 | Fresh, Affordable & Reliable</strong></p>
+    <hr>
+    <p id="cp">&copy; BNG 2019</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
